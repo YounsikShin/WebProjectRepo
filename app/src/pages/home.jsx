@@ -1,0 +1,6 @@
+class Home extends React.Component {
+  render() {
+    return <div>Welcome!</div>;
+  }
+}
+export default Home;
