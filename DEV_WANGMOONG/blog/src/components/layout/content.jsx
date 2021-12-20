@@ -10,6 +10,7 @@ class Content extends React.Component {
         <Route path={routes[1].path} element={routes[1].content} />
         <Route path={routes[2].path} element={routes[2].content} />
         <Route path={routes[3].path} element={routes[3].content} />
+        <Route path={routes[4].path} element={routes[4].content} />
       </Routes>
     );
   }

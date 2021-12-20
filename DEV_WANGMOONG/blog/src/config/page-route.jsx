@@ -2,8 +2,9 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 
 import Home from './../pages/home.jsx';
-import About from './../pages/about.jsx';
-import Contact from './../pages/contact.jsx';
+import Introduce from './../pages/introduce.jsx';
+import Portfolio from './../pages/portfolio.jsx';
+import Etc from './../pages/etc.jsx';
 
 const routes = [
   {
@@ -15,12 +16,16 @@ const routes = [
     content: <Home />,
   },
   {
-    path: '/about',
-    content: <About />,
+    path: '/introduce',
+    content: <Introduce />,
   },
   {
-    path: '/contact',
-    content: <Contact />,
+    path: '/portfolio',
+    content: <Portfolio />,
+  },
+  {
+    path: '/etc',
+    content: <Etc />,
   },
 ];
 

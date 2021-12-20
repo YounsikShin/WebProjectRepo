@@ -5,43 +5,34 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
             <Link className="navbar-brand" to="/">
-              React
+              Blog
             </Link>
             <button
-              className="navbar-toggler"
+              class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link className="nav-link active" to="/home">
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to="/about">
-                    About
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to="/contact">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <Link className="nav-link active" to="/introduce">
+                  소개
+                </Link>
+                <Link className="nav-link active" to="/portfolio">
+                  포트폴리오
+                </Link>
+                <Link className="nav-link active" to="/etc">
+                  ETC
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
