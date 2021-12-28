@@ -4,7 +4,6 @@ import { Navigate } from 'react-router-dom';
 import Home from './../pages/home.jsx';
 import Introduce from './../pages/introduce.jsx';
 import Portfolio from './../pages/portfolio.jsx';
-import Etc from './../pages/etc.jsx';
 
 const routes = [
   {
@@ -22,10 +21,6 @@ const routes = [
   {
     path: '/portfolio',
     content: <Portfolio />,
-  },
-  {
-    path: '/etc',
-    content: <Etc />,
   },
 ];
 
